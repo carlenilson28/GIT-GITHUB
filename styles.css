@@ -1,0 +1,76 @@
+
+ @import url(https://fonts.bunny.net/css?family=montserrat:400,500,600,700,900);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.prin-direita{
+    display: inline-block;
+    width: 400px;
+}
+.prin-esquerda{
+    display: inline-block;
+    background-color: rgba(148, 144, 36, 0.2);
+    color: #030896;
+    border: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 80%;
+    position: fixed;
+}
+
+img{
+    width: 400px;
+    height: 700px;
+    margin-left:30%;
+    position: relative;
+}
+
+header{
+    background-color: #71b32a;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    word-spacing:10px;
+    cursor: pointer;
+}
+
+h1{
+    color: #71b32a;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+h2{
+    color: #71b32a;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+p{
+    font-weight: 300;
+    color: #0d3b67;
+    font-size: 15px;
+    text-align: justify;
+    margin: 10px 10px 10px 10px;
+
+}
+button{
+    background-color: #bae243;
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+
